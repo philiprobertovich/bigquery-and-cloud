@@ -16,6 +16,10 @@
 
 The BigQuery CLI is used to crate a dataset called 'plants'. A BigQuery client is then created using Python which is then utilized to list, and make sure it has been created. SQL is then used in BigQuery, which has been stored in the main.sql file, to create and seed values into a new table called 'flower_shop'. The Python client is used again to list that new table.
 
+For the visualization that I generated in Looker Studio, I utilized a StackOverflow dataset and created a visualization that showed and compared the total view and answer count over a period of time from around 2008 to 2011.
+
+<img src="img/StackOverflow_Report.jpg" alt="StackOverflow Visualization"/>
+
 ## Setup/Installation Requirements
 
 * Fork over the the repository to your own Github account.
